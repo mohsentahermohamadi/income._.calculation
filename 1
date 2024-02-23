@@ -1,0 +1,13 @@
+>>>python
+hour = int(input("how many hour do you work?: "))
+per_hour = int(input("how mach do you earn per hour?: "))
+
+
+def hoghoogh(hour , per_hour):
+    if hour > 8:
+        return "error too much work!"
+    if per_hour < 50:
+        return "why do you work for this money???"
+    income = hour * per_hour
+    return income
+print(hoghoogh(hour , per_hour))
